@@ -1,9 +1,7 @@
-package com.anshumanbiswal.internmediate.optimized;
+package com.anshumanbiswal.internmediate.normal;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
-import java.util.stream.Collectors;
 
 /*
 Problem Description

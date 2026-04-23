@@ -1,4 +1,4 @@
-package com.anshumanbiswal.internmediate.optimized;
+package com.anshumanbiswal.internmediate.normal;
 
 import java.util.ArrayList;
 import java.util.Arrays;

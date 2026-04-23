@@ -38,7 +38,7 @@ iterate for  i <= N/i and count the factor in pairs
 
 public class CountOfFactors {
 
-    static int count(int N) {
+    public static int count(int N) {
         int count = 0;
         for (int i = 1; i <= N/i; ++i) { //for (int i = 1; i * i <= N; ++i) {
             if (N % i == 0) {

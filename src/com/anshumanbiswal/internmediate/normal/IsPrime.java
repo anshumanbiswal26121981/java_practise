@@ -1,4 +1,6 @@
-package com.anshumanbiswal.internmediate.optimized;
+package com.anshumanbiswal.internmediate.normal;
+
+import com.anshumanbiswal.internmediate.optimized.CountOfFactors;
 
 public class IsPrime {
 
