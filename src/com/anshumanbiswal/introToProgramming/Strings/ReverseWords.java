@@ -20,16 +20,16 @@ package com.anshumanbiswal.introToProgramming.Strings;
  */
 public class ReverseWords {
     static String solve(String s){
-        String[] s1 = s.split("[\\\\s\\\\xA0]+");
+        String[] s1 = s.split("\\s+");
         StringBuilder sb = new StringBuilder();
         for (int i = s1.length-1; i >= 0; --i) {
             sb.append(s1[i]);
-            if( i != 0) {
+            if( i > 0) {
                 sb.append(" ");
             }
 
         }
-        return sb.toString();
+        return sb.toString().trim();
     }
 
     static void main() {
