@@ -1,6 +1,7 @@
 package com.anshumanbiswal.advanced.dsatimecomplexity;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * Problem Description
@@ -104,6 +105,10 @@ public class SubArrayWithGivenSumAndLength {
     }
 
     static void main() {
-
+        int[] a = {4, 3, 2, 6, 1};
+        int B = 3;
+        int C = 11;
+        ArrayList<Integer> A = new ArrayList<Integer>(Arrays.stream(a).boxed().toList());
+        System.out.println(solve(A,B,C));
     }
 }
